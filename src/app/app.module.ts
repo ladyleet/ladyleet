@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
-import { routing, appRoutingProviders } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SpeakingComponent }  from './speaking/speaking.component';
+import { SpeakingPastComponent }  from './speaking/speaking-past.component';
 import { ProjectsComponent }  from './projects/projects.component';
 import { AboutComponent }  from './about/about.component';
 import { HireMeComponent }  from './hire-me/hire-me.component';
@@ -19,7 +19,8 @@ import { HireMeComponent }  from './hire-me/hire-me.component';
     SpeakingComponent,
     ProjectsComponent,
     AboutComponent,
-    HireMeComponent
+    HireMeComponent,
+    SpeakingPastComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +29,7 @@ import { HireMeComponent }  from './hire-me/hire-me.component';
     RouterModule.forRoot([
       { path: '', component: SpeakingComponent },
       { path: 'speaking', component: SpeakingComponent },
+      { path: 'speaking/previous', component: SpeakingPastComponent },
       { path: 'projects', component: ProjectsComponent },
       { path: 'hire-me', component: HireMeComponent },
       { path: 'about', component: AboutComponent }
