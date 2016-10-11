@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <nav>
       <div class="nav-wrapper pink">
-        <a href="#" class="brand-logo center"><3</a>
+        <a href="#" class="brand-logo center">@ladyleet</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a routerLink="/speaking">Speaking</a></li>
           <li><a routerLink="/projects">Projects</a></li>
