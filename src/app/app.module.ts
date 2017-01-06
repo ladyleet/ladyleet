@@ -11,6 +11,8 @@ import { SpeakingPastComponent }  from './speaking/speaking-past.component';
 import { ProjectsComponent }  from './projects/projects.component';
 import { AboutComponent }  from './about/about.component';
 import { HireMeComponent }  from './hire-me/hire-me.component';
+import { EventsComponent }  from './events/events.component';
+import { EventsPastComponent }  from './events/events-past.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HireMeComponent }  from './hire-me/hire-me.component';
     ProjectsComponent,
     AboutComponent,
     HireMeComponent,
-    SpeakingPastComponent
+    SpeakingPastComponent,
+    EventsComponent,
+    EventsPastComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +34,8 @@ import { HireMeComponent }  from './hire-me/hire-me.component';
       { path: '', component: SpeakingComponent },
       { path: 'speaking', component: SpeakingComponent },
       { path: 'speaking/previous', component: SpeakingPastComponent },
+      { path: 'events', component: EventsComponent },
+      { path: 'events/previous', component: EventsPastComponent },
       { path: 'projects', component: ProjectsComponent },
       { path: 'hire-me', component: HireMeComponent },
       { path: 'about', component: AboutComponent }

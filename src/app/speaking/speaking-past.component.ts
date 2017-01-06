@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { upcoming } from './upcoming.model';
 
 @Component({
-  selector: 'app-speaking',
+  selector: 'app-speaking-past',
   template: `
   <div class='container'>
     <div class='row margin-top-50'>

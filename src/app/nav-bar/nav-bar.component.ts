@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
         <a class='brand-logo center'><img src="/assets/tracy-80x80.jpg" class="logo-styling z-depth-2"></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a routerLink="/speaking">Speaking</a></li>
+          <li><a routerLink="/events">Events</a></li>
           <li><a routerLink="/about">About</a></li>
         </ul>
       </div>

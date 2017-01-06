@@ -11,14 +11,134 @@ export class Upcoming {
 
 export const upcoming: Upcoming[] = [
 {
-confName: 'ReactNLConf',
-confLink: 'http://reactnl.org/',
-confCity: 'Amsterdam',
-confState: 'Netherlands',
-confDate: 'Oct 13, 2016',
-confTalkTitle: 'React Jeopardy',
+confName: 'Modern.Web',
+confLink: 'https://www.meetup.com/modernweb/events/235965983/',
+confCity: 'Silicon Valley',
+confState: 'CA',
+confDate: 'Jan 18, 2017',
+confTalkTitle: 'Keynote',
+confTalkBrief: 'Modern.Web is one of the largest JS meetups in the Bay Area. This event will feature Jon Kuperman from Brave, Stefan Penner with the Ember.js core team, and Jafar Husain, architect of Falcor.',
+confStatus: 'active'
+},
+{
+confName: 'Triangle Modern.Web',
+confLink: 'https://www.meetup.com/trianglemodernweb/events/235966025/',
+confCity: 'Raleigh',
+confState: 'NC',
+confDate: 'Jan 24, 2017',
+confTalkTitle: 'Keynote',
+confTalkBrief: 'A framework agnostic JS meetup, this event is a partnership between all JS meetups in the Triangle area. This event features talks on Node, D3, and NativeScript.',
+confStatus: 'active'
+},
+{
+confName: 'This.JavaScript',
+confLink: 'http://thisdot.co/javascript',
+confCity: 'Online',
+confState: 'YouTube LiveStream',
+confDate: 'Jan 28, 2017',
+confTalkTitle: 'Moderator',
+confTalkBrief: 'Keep up with the advancement of prominent open source frameworks, libraries, and browser standards by attending this online event. Core team members will discuss topics such as upcoming releases, recent milestones, and community initiatives.',
+confStatus: 'active'
+},
+{
+confName: 'NgVikings Conf',
+confLink: 'https://ngvikings.org/',
+confCity: 'Copenhagen',
+confState: 'Denmark',
+confDate: 'Feb 3, 2017',
+confTalkTitle: 'An Introduction Into Using Angular’s Material Design',
+confTalkBrief: 'Angular Material 2 has been evolving over the course of the past year, and it has finally become stable enough to use in production. Get familiar with the various components of Angular Material 2, how to use them in your app, and a few tips and tricks to getting started.',
+confStatus: 'active'
+},
+{
+confName: 'JDays',
+confLink: 'http://www.jdays.se/',
+confCity: 'Goteborg',
+confState: 'Sweden',
+confDate: 'Mar 7, 2017',
+confTalkTitle: 'The Tale of 3 CLIs - Ember, Angular, and React',
+confTalkBrief: 'Ember-CLI, Angular-CLI, and Create-React-App are necessities to web development, and many who have not had exposure to such wonderful technologies wonder what they are actually missing. This talk will show you how easy it is to scaffold up all 3 projects in less than 30 minutes, how to shave days, even weeks, off your development cycle, and why you should choose convention over configuration.',
+confStatus: 'active'
+},
+{
+confName: 'Modern.Web',
+confLink: 'https://www.meetup.com/modernweb/events/235966002/',
+confCity: 'Mountain View',
+confState: 'CA',
+confDate: 'Mar 9, 2017',
+confTalkTitle: 'Keynote',
+confTalkBrief: 'Modern.Web is one of the largest JS meetups in the Bay Area. This event is partnered with the Angular meetup and features talks on linting Angular, pre-rendering, and other talks from core team members.',
+confStatus: 'active'
+},
+{
+confName: 'Triangle Modern.Web',
+confLink: 'https://www.meetup.com/trianglemodernweb/events/235966037/',
+confCity: 'Raleigh',
+confState: 'NC',
+confDate: 'Apr 18, 2017',
+confTalkTitle: 'Keynote',
+confTalkBrief: 'A framework agnostic JS meetup, this event is a partnership between all JS meetups in the Triangle area.',
+confStatus: 'active'
+},
+{
+confName: 'This.JavaScript',
+confLink: 'http://thisdot.co/javascript',
+confCity: 'Online',
+confState: 'YouTube LiveStream',
+confDate: 'Apr 22, 2017',
+confTalkTitle: 'Moderator',
+confTalkBrief: 'Keep up with the advancement of prominent open source frameworks, libraries, and browser standards by attending this online event. Core team members will discuss topics such as upcoming releases, recent milestones, and community initiatives.',
+confStatus: 'active'
+},
+{
+confName: 'Jazoon Techdays',
+confLink: 'http://jazoon.com/',
+confCity: 'Bern',
+confState: 'Switzerland',
+confDate: 'Apr 27-28, 2017',
+confTalkTitle: '',
 confTalkBrief: '',
 confStatus: 'active'
+},
+{
+confName: 'Voxxed Days',
+confLink: 'https://voxxeddays.com/athens/',
+confCity: 'Athens',
+confState: 'Greece',
+confDate: 'May 19, 2017',
+confTalkTitle: '',
+confTalkBrief: '',
+confStatus: 'active'
+},
+{
+confName: 'Modern.Web',
+confLink: 'https://meetup.com/modernweb',
+confCity: 'Mountain View',
+confState: 'CA',
+confDate: 'May 23, 2017',
+confTalkTitle: '',
+confTalkBrief: '',
+confStatus: 'active'
+},
+{
+confName: 'NgCruise',
+confLink: 'http://ngcruise.com',
+confCity: 'Cruise',
+confState: 'Caribbean',
+confDate: 'May 29-June 2, 2017',
+confTalkTitle: 'Host & MC',
+confTalkBrief: 'NgCruise is the first Angular cruise conference. Presented by NgConf, sail the seas with great speakers and content focused on conversations, relationships, and new ideas within the Angular community.',
+confStatus: 'active'
+},
+{
+confName: 'NgPoland',
+confLink: 'http://www.angular-up.com',
+confCity: 'Warsaw',
+confState: 'Poland',
+confDate: 'Nov 21-11, 2016',
+confTalkTitle: 'Using Angular-CLI to Deploy an Angular 2 App Using Firebase in 30 Minutes',
+confTalkBrief: 'Do you think it’s possible to live code an Angular 2 app, create a backend, and deploy it in one talk? With the convenience of Angular-CLI and a little help from Firebase and material design, see how easy it is to create apps with Angular 2 and why this new framework is the great for quickly prototyping ideas and is built to scale large applications across distributed teams.',
+confStatus: 'complete'
 },
 {
 confName: 'AngularUp',
@@ -28,37 +148,17 @@ confState: 'Israel',
 confDate: 'Nov 17, 2016',
 confTalkTitle: 'Getting Started in Angular 2 with Angular-CLI',
 confTalkBrief: 'Watch a live code session of an Angular 2 Angular-CLI application and see how easy it is to use this new framework and why it is great for quickly prototyping ideas and why it is being used to scale across large scale organizations. We will discuss the features of the CLI, the Angular 2 component structure, the newest new router, using directives, and template-driven forms.',
-confStatus: 'active'
+confStatus: 'complete'
 },
 {
-confName: 'NgPoland',
-confLink: 'http://ng-poland.pl/',
-confCity: 'Warsaw',
-confState: 'Poland',
-confDate: 'Nov 21-22, 2016',
-confTalkTitle: 'Using Angular-CLI to Deploy an Angular 2 App Using Firebase in 30 Minutes',
-confTalkBrief: 'Do you think it’s possible to live code an Angular 2 app, create a backend, and deploy it in one talk? With the convenience of Angular-CLI and a little help from Firebase and material design, see how easy it is to create apps with Angular 2 and why this new framework is the great for quickly prototyping ideas and is built to scale large applications across distributed teams.',
-confStatus: 'active'
-},
-{
-confName: 'DevFestNC',
-confLink: '',
-confCity: 'Raleigh',
-confState: 'NC',
-confDate: 'Dec 3, 2016',
-confTalkTitle: 'Using Angular-CLI to Deploy an Angular 2 App Using Firebase in 30 Minutes',
-confTalkBrief: 'Do you think it’s possible to live code an Angular 2 app, create a backend, and deploy it in one talk? With the convenience of Angular-CLI and a little help from Firebase and material design, see how easy it is to create apps with Angular 2 and why this new framework is the great for quickly prototyping ideas and is built to scale large applications across distributed teams.',
-confStatus: 'active'
-},
-{
-confName: 'DevFestNC',
-confLink: '',
-confCity: 'Raleigh',
-confState: 'NC',
-confDate: 'Dec 3, 2016',
-confTalkTitle: 'Learning the New Tech Lingua Franca: Social Media',
-confTalkBrief: 'Whether you are a developer or business person in the tech community, you must understand the lingua franca of the tech community: social media. Business no longer gets done behind closed doors, but online through various mediums such as Twitter and Github. This talk walks you through the reasons to have a presence as a developer, recruiter, CEO, or marketer and why communicating through social mediums is required for you to succeed. We will talk about the dos and donts of interaction and walk through a practical approach to building your social presence.',
-confStatus: 'active'
+confName: 'ReactNLConf',
+confLink: 'http://reactnl.org/',
+confCity: 'Amsterdam',
+confState: 'Netherlands',
+confDate: 'Oct 13, 2016',
+confTalkTitle: 'React Jeopardy',
+confTalkBrief: '',
+confStatus: 'complete'
 },
 {
 confName: 'DevFestNL',
